@@ -26,7 +26,7 @@ do
   wget -P $2 $1$file
 done
 
-## Uzzip
+## Unzip
 for t in $OUTPUT_DIR/*.$EXTENSION
 do
 	FILENAME="${t##*/}"
@@ -37,7 +37,7 @@ done
 
 DROP_SLASH=${URL%%/}
 RC_VERSION=${DROP_SLASH##*/knox-}
-echo RC_VERSION
+echo $RC_VERSION
 
 ## Verify
 echo $OUTPUT_DIR
