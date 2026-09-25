@@ -5,7 +5,7 @@
 ## 1. http link to release candidate
 ## 2. folder to put artifacts into
 # usage
-# ./download_artifacts.sh https://dist.apache.org/repos/dist/dev/knox/knox-1.4.0/ /Users/smore/dev/release-verification/1.4.0-RC1
+# ./main.sh RC_URL OUTPUT_DIR
 ####################################################
 
 EXTENSION="zip"

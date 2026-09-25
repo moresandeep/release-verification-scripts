@@ -1,0 +1,13 @@
+{
+  "provider-config-ref": "demo-ldap",
+  "services": [
+    {
+      "name": "CLIENTID",
+      "params": {
+        "clientid.knox.token.exp.server-managed": "true",
+        "clientid.knox.token.user.limit.exceeded.action":"RETURN_ERROR"
+      }
+    }
+  ]
+}
+

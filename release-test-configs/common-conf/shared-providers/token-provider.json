@@ -1,0 +1,12 @@
+{
+  "providers": [
+    {
+      "role": "federation",
+      "name": "JWTProvider",
+      "enabled": "true",
+      "params": {
+        "knox.token.exp.server-managed": "true"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "provider-config-ref": "demo-ldap",
+  "services": [
+    {
+      "name": "APIKEY",
+      "params": {
+        "apikey.knox.token.exp.server-managed": "true",
+        "apikey.knox.token.renewer.whitelist": "admin"
+      }
+    }
+  ]
+}

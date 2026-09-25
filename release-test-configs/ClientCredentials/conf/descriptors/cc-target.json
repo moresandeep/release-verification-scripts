@@ -1,0 +1,13 @@
+{
+  "provider-config-ref": "token-provider",
+  "services": [
+    {
+      "name": "KNOXTOKEN",
+      "params": {
+        "knox.token.ttl": "3600000",
+        "knox.token.exp.server-managed": "true"
+      }
+    }
+  ]
+}
+
